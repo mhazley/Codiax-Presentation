@@ -173,3 +173,23 @@ Get Matter onto Dyson Products
 
 Add support for Dyson Products into Matter
 
+* Join CSA
+* Contribute to the Spec with other Companies
+* Contribute to the open source spec with other Companies
+* Take prototypes of our products to test events all around the world
+
+---
+
+Glacier Picture
+
+---
+
+We are asking to
+
+* Contribute to open source
+* Add more work for developers
+* Require a hardware change to support the new code
+* Travel about 5 times to attend global meetings
+* Work with out competitors
+* 
+
