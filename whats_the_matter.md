@@ -3,6 +3,7 @@ theme: graph_paper
 marp: true
 header: Codiax 2023: Whats the Matter?
 footer: Dyson New Product Innovation Software Team
+size: 16:9
 ---
 
 ![bg right:30% 80%](https://1000logos.net/wp-content/uploads/2021/05/Dyson-logo.png)
@@ -34,16 +35,16 @@ Hi everyone, my name is Matt Hazley, I am an Associate Principal Connectivity En
 
 ---
 
-**The State of the Smart Home circa 2021-2023**
-Fragmented
-Indicate how difficult it is for device manufacturers, an integration per platform, ranging from cloud 2 cloud and straight to device.
+**<center>The State of the Smart Home ~2020</center>**
 
-Use a single diagram
+![drop-shadow height:500px center](img/stateofsmarthome.jpg)
 
 <!-- 
 Each existing Smart Home platform currently has its own protocols and configuration​
 ​Requires development to ‘on-board’ & support a new platform.​
-S-->
+
+Indicate how difficult it is for device manufacturers, an integration per platform, ranging from cloud 2 cloud and straight to device.
+-->
 
 ---
 
