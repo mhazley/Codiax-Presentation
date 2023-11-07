@@ -4,6 +4,13 @@ marp: true
 header: Codiax 2023: Whats the Matter?
 footer: Dyson New Product Innovation Software Team
 size: 16:9
+style: |
+  h2 {
+    position: absolute;
+    top: 65px;
+    left: 75px;
+    right: 75px;
+  }
 ---
 
 ![bg right:30% 80%](https://1000logos.net/wp-content/uploads/2021/05/Dyson-logo.png)
@@ -23,43 +30,38 @@ Hi everyone, my name is Matt Hazley, I am an Associate Principal Connectivity En
 
 ---
 
-## **Phase 1:** The Path to Smart Home Ubiquity
+# **Phase 1:** The Path to Smart Home Ubiquity
 
-## **Phase 2:** How to Move Glaciers (while not being an Imposter)
-
----
-
-## **Phase 1:** *The Path to Smart Home Ubiquity*
-
-## **Phase 2:** <span style="color:lightgrey;">How to Move Glaciers (while not being an Imposter)<span>
+# **Phase 2:** How to Move Glaciers (as an Imposter)
 
 ---
 
-**<center>The State of the Smart Home ~2020</center>**
+# **Phase 1:** *The Path to Smart Home Ubiquity*
 
-![drop-shadow height:500px center](img/stateofsmarthome.jpg)
+# **Phase 2:** <span style="color:lightgrey;">How to Move Glaciers (as an Imposter))<span>
+
+---
+
+## **The State of the Smart Home ~2020**
+
+<br>
+
+![drop-shadow height:490px](img/stateofsmarthome.jpg)
 
 <!-- 
 Each existing Smart Home platform currently has its own protocols and configuration​
 ​Requires development to ‘on-board’ & support a new platform.​
 
 Indicate how difficult it is for device manufacturers, an integration per platform, ranging from cloud 2 cloud and straight to device.
+
+Poor User Experience
+Lower Consumer choice
+This fragmented set of platforms is untenable.
 -->
 
 ---
 
-**Why this is a problem**
-Not only is this a poor user experience...
-Smart Home Market is estimated to scale by x in the current decade
-Prevalence of cheaper connected hardware and IoT know-how allowing companies to enter the market and offer connected features for their products.
-
-This fragmented set of platforms is untenable.
-
-Insert Market Research Diagrams
-
----
-
-![bg center: 90%](market.png)
+![drop-shadow center height:490px](img/market.png)
 
 <!-- 
 Statista 2023 Market Research Report on Smart Home
