@@ -7,7 +7,7 @@ size: 16:9
 style: |
   h2 {
     position: absolute;
-    top: 65px;
+    top: 70px;
     left: 75px;
     right: 75px;
   }
@@ -70,36 +70,46 @@ Household penetration is around 14% in 2022, predicted to be 33% by 2028
 
 ---
 
-**Enter Matter**
-Announced in early 2020 as **C**onnected **H**ome over **IP** (**CHIP**), renamed to **Matter** in 2021. ​
+## **Enter Matter**
 
-Governed by **C**onnected **S**tandards **A**lliance, (**CSA**) ​
+![bg vertical right 90% drop-shadow](img/Matter_logo.jpg)
+![bg right 80% drop-shadow](img/csalogo.png)
 
-Claims to “create a unifying standard for the smart home industry”​
+* Announced in early 2020 as **C**onnected **H**ome over **IP** (**CHIP**), renamed to **Matter** in 2021. ​
+
+* Governed by **C**onnected **S**tandards **A**lliance, (**CSA**)
+
+* v1.0 released in November 2022
+
+<!-- Claims to “create a unifying standard for the smart home industry”​
 
 Apple, Amazon, Google & Samsung formally announced their support at inception
 
 At CES, around 30 companies showcased their involvement and / or pledged their support​
 
-v1.0 launched in just over one year ago in Nov 2022.​
+v1.0 launched in just over one year ago in Nov 2022.​ 
+
+Allows a device to interact with any Smart Home Ecosystem that understands Matter​-->
+
+---
+## **Matter Technologies**
+
+![bg vertical right 50% drop-shadow](img/wifilogo.png)
+![bg right 60% drop-shadow](img/threadlogo.png)
+![bg right 60% drop-shadow](img/blelogo.png)
+
+* A software stack (+ supporting code) that runs **on-device**​
+
+* Utilises **IPv6 Networks** with the following core technologies
+  * **Wi-Fi**
+  * **Thread**
+  * **Ethernet**​
+
+* **Bluetooth Low Energy** is used for device on-boarding​
 
 ---
 
-**Technology**
-
-A software stack (+ supporting code) that runs **on-device**​
-
-Allows a device to interact with any Smart Home Ecosystem that understands Matter​
-
-Utilises **IP Networks**, with **Wi-Fi/Ethernet** and  being the core network technologies​
-
-**Bluetooth Low Energy** is used for device on-boarding​
-
-Security focused!
-
----
-
-**A Word on Thread**
+## **Thread**
 
 **Diagram**
 
