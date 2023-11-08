@@ -111,9 +111,11 @@ Allows a device to interact with any Smart Home Ecosystem that understands Matte
 
 ## **Thread**
 
-**Diagram**
+<br>
 
-Thread is a low power mesh technology based on 802.15.4 which is basically the same physical later as Zigbee, so its effectively zigbee, except that thread used IP to communicate, like a normal network that we are used to. ​
+![drop-shadow height:490px](img/threadnetwork.jpg)
+
+<!-- Thread is a low power mesh technology based on 802.15.4 which is basically the same physical later as Zigbee, so its effectively zigbee, except that thread used IP to communicate, like a normal network that we are used to. ​
 
 It is bridged back into a standard Wi-Fi network by a device called a Border Router. ​
 
@@ -121,8 +123,7 @@ A border router is basically a hub…. A smart speaker, another device, etc….�
 
 Thread allows low power devices to form a mesh around the home and communicate with devices on the Wi-Fi network via this Border Router / hub. ​
 
-So, now that we know this, then what does a Matter network look like...
-
+So, now that we know this, then what does a Matter network look like... -->
 ---
 
 **Matter Network**
