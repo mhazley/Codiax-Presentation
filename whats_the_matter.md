@@ -126,13 +126,27 @@ Thread allows low power devices to form a mesh around the home and communicate w
 So, now that we know this, then what does a Matter network look like... -->
 ---
 
-**Matter Network**
-Diagram with generic border router​
+## **Matter Network**
+
+<br>
+
+![drop-shadow height:490px](img/matternetwork.jpg)
 
 ---
 
-**Matter Network**
-Diagram with non-generic border router​ to show the compatibility
+## **Matter Network**
+
+<br>
+
+![drop-shadow height:490px](img/matternetwork_google.jpg)
+
+---
+
+## **Matter Network**
+
+<br>
+
+![drop-shadow height:490px](img/matternetwork_apple.jpg)
 
 ---
 
