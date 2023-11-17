@@ -1,5 +1,6 @@
 ---
 theme: graph_paper
+theme-set: theme/graph_paper.css
 marp: true
 header: Codiax 2023: Whats the Matter?
 footer: Dyson New Product Innovation Software Team
@@ -32,13 +33,13 @@ Hi everyone, my name is Matt Hazley, I am an Associate Principal Connectivity En
 
 # **Phase 1:** The Path to Smart Home Ubiquity
 
-# **Phase 2:** How to Move Glaciers (as an Imposter)
+# **Phase 2:** How to Move Glaciers
 
 ---
 
 # **Phase 1:** *The Path to Smart Home Ubiquity*
 
-# **Phase 2:** <span style="color:lightgrey;">How to Move Glaciers (as an Imposter))<span>
+# **Phase 2:** <span style="color:lightgrey;">How to Move Glaciers<span>
 
 ---
 
@@ -75,11 +76,11 @@ Household penetration is around 14% in 2022, predicted to be 33% by 2028
 ![bg vertical right 90% drop-shadow](img/Matter_logo.jpg)
 ![bg right 80% drop-shadow](img/csalogo.png)
 
-* Announced in early 2020 as **C**onnected **H**ome over **IP** (**CHIP**), renamed to **Matter** in 2021. ​
+- Announced in early 2020 as **C**onnected **H**ome over **IP** (**CHIP**), renamed to **Matter** in 2021. ​
 
-* Governed by **C**onnected **S**tandards **A**lliance, (**CSA**)
+- Governed by **C**onnected **S**tandards **A**lliance, (**CSA**)
 
-* v1.0 released in November 2022
+- v1.0 released in November 2022
 
 <!-- Claims to “create a unifying standard for the smart home industry”​
 
@@ -150,48 +151,73 @@ So, now that we know this, then what does a Matter network look like... -->
 
 ---
 
-**Matter Software Stack**
+## **Matter Software Stack**
 
-Explode out a few diagrams:
+<br>
 
-Application
-Matter
-TCP | UDP
-IPv6
-Thread | WiFi | Ethernet | BLE
+![drop-shadow height:490px](img/matter_stack.jpg)
 
 ---
 
-**Matter Software Stack**
+## **Matter Software Stack**
 
-Explode out a few diagrams:
+<br>
 
-Data Model | Interaction Model
-ZCL
-Security
-Framing and Transport
+![drop-shadow height:490px](img/matter_stack_deeper.jpg)
 
 ---
 
-**Matter Data Model**
+## **Matter Data Model**
+
+<br>
+
+![drop-shadow height:490px](img/data_model.jpg)
 
 ---
 
-**Matter Interaction Model**
+## **Matter Data Model**
+
+<br>
+
+![drop-shadow height:490px](img/data_model_example.jpg)
 
 ---
 
-**Supported Devices**
+## **Matter Interaction Model**
+
+<br>
+
+![drop-shadow height:490px](img/interaction_model.jpg)
 
 ---
 
-**Data Model of a Supported Device**
+## **Supported Devices**
+
+<br>
+
+![drop-shadow height:490px](img/supported_devices.jpg)
 
 ---
 
-## **Phase 1:** <span style="color:lightgrey;">The Path to Smart Home Ubiquity<span>
+## **Supported Devices**
 
-## **Phase 2:** *How to Move Glaciers (while not being an Imposter)*
+<br>
+
+![drop-shadow height:490px](img/supported_devices_1_2.jpg)
+
+---
+
+## **Supported Devices**
+
+<br>
+
+![drop-shadow height:490px](img/supported_devices_1_2_highlight.jpg)
+
+---
+
+# **Phase 1:** <span style="color:lightgrey;">The Path to Smart Home Ubiquity<span>
+
+# **Phase 2:** *How to Move Glaciers (while not being an Imposter)*
 
 ---
 
@@ -221,3 +247,7 @@ We are asking to
 * Work with out competitors
 * 
 
+
+---
+
+End with the release articles - and now we are here
