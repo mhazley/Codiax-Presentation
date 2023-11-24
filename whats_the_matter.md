@@ -12,6 +12,7 @@ style: |
     left: 75px;
     right: 75px;
   }
+paginate: true
 ---
 
 ![bg right:30% 80%](https://1000logos.net/wp-content/uploads/2021/05/Dyson-logo.png)
@@ -31,15 +32,44 @@ Hi everyone, my name is Matt Hazley, I am an Associate Principal Connectivity En
 
 ---
 
+## **Matt Hazley**
+
+<br>
+
+![drop-shadow height:490px](img/me.jpg)
+
+---
+
 # **Phase 1:** The Path to Smart Home Ubiquity
 
-# **Phase 2:** How to Move Glaciers
+# **Phase 2:** How to Move Icebergs
+
+<!--
+Act One is commentary on why Matter came to be and a technical overview of the stack and protocol 
+Act Two is a little more philosophical
+-->
 
 ---
 
 # **Phase 1:** *The Path to Smart Home Ubiquity*
 
-# **Phase 2:** <span style="color:lightgrey;">How to Move Glaciers<span>
+# **Phase 2:** <span style="color:lightgrey;">How to Move Icebergs<span>
+
+---
+
+## **What is a Smart Home?**
+
+<br>
+
+![drop-shadow height:490px center](img/smart_home.jpg)
+
+<!--
+A single connected product does not make a Smart Home.
+A Smart Home is a combination of products working together to
+unlock value and features that are greater than the sum of its parts.
+The Smart Home Network increases in value as more devices are
+added if different manufacturer products can work together.
+-->
 
 ---
 
@@ -79,6 +109,8 @@ Household penetration is around 14% in 2022, predicted to be 33% by 2028
 - Announced in early 2020 as **C**onnected **H**ome over **IP** (**CHIP**), renamed to **Matter** in 2021. ​
 
 - Governed by **C**onnected **S**tandards **A**lliance, (**CSA**)
+
+- Supported by Apple, Google, Samsung and Amazon
 
 - v1.0 released in November 2022
 
@@ -191,6 +223,14 @@ So, now that we know this, then what does a Matter network look like... -->
 
 ---
 
+## **Test, Certify, Attest, Commission**
+
+<br>
+
+![drop-shadow height:490px](img/test_cert.jpg)
+
+---
+
 ## **Supported Devices**
 
 <br>
@@ -217,37 +257,122 @@ So, now that we know this, then what does a Matter network look like... -->
 
 # **Phase 1:** <span style="color:lightgrey;">The Path to Smart Home Ubiquity<span>
 
-# **Phase 2:** *How to Move Glaciers (while not being an Imposter)*
+# **Phase 2:** *How to Move Icebergs*
 
 ---
 
-Get Matter onto Dyson Products
+## **A Note on Icebergs**
+
+<br>
+
+![drop-shadow height:490px](img/iceberg_1.jpg)
 
 ---
 
-Add support for Dyson Products into Matter
+## **A Note on ~~Icebergs~~ Companies**
 
-* Join CSA
-* Contribute to the Spec with other Companies
-* Contribute to the open source spec with other Companies
-* Take prototypes of our products to test events all around the world
+<br>
 
----
+![drop-shadow height:490px](img/iceberg_1.jpg)
 
-Glacier Picture
+<!--
+The iceberg here is really just a clunky metaphor to talk to you about the difficulties of working on such open and collaborative standards as the ones noted above.
 
----
-
-We are asking to
-
-* Contribute to open source
-* Add more work for developers
-* Require a hardware change to support the new code
-* Travel about 5 times to attend global meetings
-* Work with out competitors
-* 
-
+Companies are like icebergs
+-->
 
 ---
 
-End with the release articles - and now we are here
+## **A Note on ~~Icebergs~~ Companies**
+
+<br>
+
+![drop-shadow height:490px](img/iceberg_see.jpg)
+
+---
+
+## **A Note on ~~Icebergs~~ Companies**
+
+<br>
+
+![drop-shadow height:490px](img/iceberg_nosee.jpg)
+
+<!-- 
+Show all the things you can see with big companies and then reveal all the things that you cannot see.
+
+Point I am trying to drive home is that cloning Matter and understanding how it worked was only one small part of the endeavour we faced and bringing an entirely new technology and culture into a company and getting it onto a shippable product is not a simple task
+
+Its important that we consider all of these things when trying to strive for change.
+-->
+
+---
+
+## **Our Mission**
+
+# 1. Get **Matter** ready for **Dyson**
+# 2. Get **Dyson** ready for **Matter**
+
+---
+
+## **Matter Development Cycle**
+
+<br>
+
+![drop-shadow height:490px](img/matter_dev.jpg)
+
+---
+
+## **Matter Development Cycle**
+
+<br>
+
+![drop-shadow height:490px center](img/mattter_pr.jpg)
+
+---
+
+## **Matter Development Cycle**
+
+<br>
+
+![drop-shadow height:490px center](img/matter_code.jpg)
+
+---
+
+## **Big Company Challenges**
+
+* ### Contributing to Open Source Software
+* ### Work alongside Competitor Companies
+* ### Migrate from a well Established System
+* ### Travel... a lot!
+
+---
+
+## **Open Source**
+
+<br>
+
+![drop-shadow height:490px center](img/open.jpg)
+
+<!--
+Th world is built on open source
+
+Open source software stands as a cornerstone of collaborative innovation, fostering a global community where individuals come together to create, refine, and freely share solutions. This democratic approach to software development not only accelerates technological advancements but also empowers users with the freedom to understand, modify, and distribute software. The transparent nature of open source projects encourages diverse perspectives and collective problem-solving, leading to robust, secure, and high-quality software.
+
+Open source software is at the foundations of a lot of proprietary code and as such, I think its important for companies to engage and contribute back.
+
+This will lead to: Skill Enhancement, Professional Development, Community Engagement, Innovation and Problem Solving, Code Quality, Visibility and Recruitment.
+
+Companies can also be quite savvy here as being at the forefront of these developments allows them to shape the narrative and that was definitely the case with Matter!
+
+Important to be OPEN about open source - Set out guidelines around the Approvals Process, a Code of Conduct and consider IP at all points in the process.
+-->
+
+---
+
+## **Collaboration with Competitors**
+
+<br>
+
+![drop-shadow height:490px center](img/companies.jpg)
+
+---
