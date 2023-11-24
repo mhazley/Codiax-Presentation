@@ -342,7 +342,7 @@ Its important that we consider all of these things when trying to strive for cha
 
 * ### Contributing to Open Source Software
 * ### Work alongside Competitor Companies
-* ### Migrate from a well Established System
+* ### Deviation from the known path
 * ### Travel... a lot!
 
 ---
@@ -376,3 +376,25 @@ Important to be OPEN about open source - Set out guidelines around the Approvals
 ![drop-shadow height:490px center](img/companies.jpg)
 
 ---
+
+## **Deviation from the known path**
+
+<br>
+
+![drop-shadow height:490px center](img/change.jpg)
+
+---
+
+## **Deviation from the known path**
+
+<br>
+
+![drop-shadow height:490px center](img/changemark.jpg)
+
+---
+
+![drop-shadow height:550px center](img/award.jpg)
+
+---
+
+![drop-shadow height:550px center](img/article.jpg)
