@@ -24,6 +24,7 @@ paginate: true
 **Matt Hazley**
 Associate Principal Connectivity Engineer
 *Dyson UK* / New Product Innovation Software Team
+*v1.0*
 
 
 <!-- 
@@ -500,8 +501,7 @@ So, if you'll indulge me for just a second, big companies are sort of like icebe
 <!--
 In many ways, big companies are majestic and offer a lot for you to see and experience. 
 
-They have strong brands and influence the market with the great products they release. They are technology driven and its visbale in what they ship. They maybe
-have a large market share and you may even have several of their products. 
+They have strong brands and influence the market with the great products they release. They are technology driven and its visbale in what they ship. They maybe have a large market share and you may even own several of their products and be a fan. 
 -->
 
 ---
@@ -513,11 +513,23 @@ have a large market share and you may even have several of their products.
 ![drop-shadow height:490px](img/iceberg_nosee.jpg)
 
 <!-- 
-Show all the things you can see with big companies and then reveal all the things that you cannot see.
+But, like the iceberg, there are things that you cannot see.
 
-Point I am trying to drive home is that cloning Matter and understanding how it worked was only one small part of the endeavour we faced and bringing an entirely new technology and culture into a company and getting it onto a shippable product is not a simple task
+Big companies are steeped in confidentiality, ensuring that they keep their secrets secret. 
 
-Its important that we consider all of these things when trying to strive for change.
+They are tied to internal hardware platforms that vary in functionality and are often driven by cost rather than features. 
+
+Companies are filled with competing priorities, and this could be prioroties on things like resource management, innovation strategies and commercial roadmaps.
+
+Processes also dominate and dictate how big companies should operate, and asking for forgiveness rather than permission will only get you so far.
+
+The point I am trying to make here is that none of these things are necessarily bad, they are just reality. I'm trying to point out that when you want to make real change, its important to consider these
+things up front and learn to make them part of you goal.
+
+When trying to not only bring Matter to life, but to then push it into a product, we learned very quickly that that cloning the SDK, understanding it, and running it on our hardware was only one small part
+of the endeavour we faced. Bringing an entirely new technology and culture into a company and getting it onto a shippable product was not going to be a simple task
+
+Change is never easy.
 -->
 
 ---
@@ -527,6 +539,12 @@ Its important that we consider all of these things when trying to strive for cha
 # 1. Get **Matter** ready for **Dyson**
 # 2. Get **Dyson** ready for **Matter**
 
+<!--
+This was the mission we set ourselves about a year ago, and it was two pronged, Get Matter ready for Dyson, and get Dyson ready for Matter.
+
+Doing these things at the same time was never going to be a simple thing to manage, and I thought it might be interesting to talk through some of this today. 
+-->
+
 ---
 
 ## **Matter Development Cycle**
@@ -534,6 +552,33 @@ Its important that we consider all of these things when trying to strive for cha
 <br>
 
 ![drop-shadow height:490px](img/matter_dev.jpg)
+
+<!--
+The first thing we were met with was the Matter development cycle. This was quite an intense process.
+
+The first step was to record all of the reasons why we wanted to add new devices in the form of end user cases and to go and find some other companies that wanted to do the same. Matter typically has a 
+rule of three meaning that you work with at least two other companies to ensure the use cases are generic and meaningful across the market for that device type. 
+
+These companies then get together, form a team, present this work at a Matter Members' Meeting and then it goes to a vote with the steering committee. We did this in Amsterdam in late 2022.
+
+Following this, we entered into the first unknown - updating the Matter spec. Now, this was actually a really interesting exercise and as boring as it sounds I would really encourage you all to try working 
+on a spec sometime with a distributed group of developers. You are forced to think about language and the nuances of statements so much more than usualy so as to ensure clear interpretation once the spec is
+released.
+
+All spec changes were managed on git, via Pull Requests, with comments coming from every timezone, which was exciting, but still a little stessful when you see github pinging you notifications at 11pm. 
+Still it was interesting to re-wire your brain a little and learn to ignore these things until working hours.
+
+After the spec is updated and has gone through a ballot vote with all the members of the CSA, then the real work starts - we had to work out how to update the code. 
+
+If I am honest, this was a mindfield and a steep learning curve that required many meetings and many pair programming sessions amongst our little team. 
+
+Matter is a dense C++ codebase with a lot of esoteric configuration files - its essentially like any massive, yet young, software project, its still in very active development!
+
+We had to adopt the age old strategy of asking as many questions as we could to as many friendly people that we could find in order to work things out and gradually make progress. I will admit, it was
+a daunting task at times but it was a great lesson in teaching me that things generally work out ok with some focus and time. It definitely did wonders for any lingering imposter syndrome!
+
+Like the spec, this was a Pull Request driven SDK with a gruelling CI pipeline, it took some time but we generally worked things out slowly and managed to put in a significant number of changes.
+-->
 
 ---
 
@@ -543,13 +588,17 @@ Its important that we consider all of these things when trying to strive for cha
 
 ![drop-shadow height:490px center](img/mattter_pr.jpg)
 
----
+<!--
+I've screenshotted my PRs on the SDK just to show you the level of input a contributor can have here - I guess I also wanted to show that I did some work! But genuinely, this is a member driven standard.
 
-## **Matter Development Cycle**
+The big takeaway for us was that the SDK was a daunting place for new developers, and we flagged this repeatedly to the governing body, the CSA. The response we got was exactly the right one, "What are you
+going to do about it?" - I'll say it again.... member, driven, standard. 
 
-<br>
+So, we did just that and our little team paired with some brilliant Google engineers to deliver the first intro session for new SDK developers at the last Members Meeting which we paired with the beginnings
+of new documentation on this topic.
 
-![drop-shadow height:490px center](img/matter_code.jpg)
+I would say this is one thing to realise about working on these open source projects; I think its important to realise that you have a duty to contribute more than just the things you need.
+-->
 
 ---
 
@@ -559,6 +608,21 @@ Its important that we consider all of these things when trying to strive for cha
 * ### Work alongside Competitor Companies
 * ### Deviation from the known path
 * ### Travel... a lot!
+
+<!--
+So, while all the Matter development was happening, we had to deal with the second part of our Mission - making Dyson ready for Matter!
+
+This meant ensuring it was ok for us to work on Open Source Software, which was interesting, considering our contracts said that we couldn't!
+
+We also had to work closely with our own competitors in the market, meeting often to share workloads and work through problems together - this definitely raised a few eyebrows with our managers!
+
+We had to take Dyson away from its known and comfortable path - when we started, we had support for Google Home and Amazon Alexa and it was working well, people were wondering why we wanted to break that.
+
+And yeah, we had to travel a lot. Attendance at the Members Meetings is really important to ensure your voice is heard and then on top of that, there are in-person test and verification events for the new
+device types - lets say the finance department might have me on a list at this point!
+
+Anyway, lets drill into these a little bit...
+-->
 
 ---
 
